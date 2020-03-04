@@ -1,0 +1,16 @@
+.window-splitter {
+  display: flex;
+  flex-direction: row;
+}
+
+.window-splitter-left,
+.window-splitter-right {
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.separator {
+  border: 2px solid black;
+  cursor: ew-resize;
+}
